@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/tablesort.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<title>OISE Sortable Table</title>
+</head>
+<body>
+<h1>Different Examples of Searchable and Sortable Table for Drupal Use in OISE</h1>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+
+<strong>Example 1:</strong></p>
+
+<table class="table-sort">
+<thead>
+<tr>
+<th class="table-sort">Course Title</th>
+<th class="table-sort">Course Code</th>
+<th class="table-sort">Session</th>
+<th class="table-sort">Professor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>People and Power in Organizations</td>
+<td>LHA0340H</td>
+<td>Winter 2020</td>
+<td>Korede</td>
+</tr>
+<tr>
+<td>Doctoral Seminar on Policy Issues in Education</td>
+<td>LHA0341H</td>
+<td>Winter 2020</td>
+<td>Andrea</td>
+</tr>
+<tr>
+<td>Literature Review Course</td>
+<td>LHA0342H</td>
+<td>Winter 2020</td>
+<td>Lonny</td>
+</tr>
+<tr>
+<td>Engineering Education</td>
+<td>LHA0343H</td>
+<td>Summer 2020</td>
+<td>Adrian</td>
+</tr>
+<tr>
+<td>Drupal Architecture</td>
+<td>LHA0344H</td>
+<td>Winter 2020</td>
+<td>Laura</td>
+</tr>
+</tbody>
+</table>
+<br/>
+
+<strong>Example 2:</strong></p>
+
+<table class="table-sort table-sort-search">
+<thead>
+<tr>
+<th class="table-sort">Course Title</th>
+<th class="table-sort">Course Code</th>
+<th class="table-sort">Session</th>
+<th class="table-sort">Professor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>People and Power in Organizations</td>
+<td>LHA0340H</td>
+<td>Winter 2020</td>
+<td>Korede</td>
+</tr>
+<tr>
+<td>Doctoral Seminar on Policy Issues in Education</td>
+<td>LHA0341H</td>
+<td>Winter 2020</td>
+<td>Andrea</td>
+</tr>
+<tr>
+<td>Literature Review Course</td>
+<td>LHA0342H</td>
+<td>Winter 2020</td>
+<td>Lonny</td>
+</tr>
+<tr>
+<td>Engineering Education</td>
+<td>LHA0343H</td>
+<td>Summer 2020</td>
+<td>Adrian</td>
+</tr>
+<tr>
+<td>Drupal Architecture</td>
+<td>LHA0344H</td>
+<td>Winter 2020</td>
+<td>Laura</td>
+</tr>
+</tbody>
+</table>
+<br/>
+
+<strong>Example 3</strong></p>
+
+<table class="table-sort table-sort-search table-sort-show-search-count">
+<thead>
+<tr>
+<th class="table-sort">Course Title</th>
+<th class="table-sort">Course Code</th>
+<th class="table-sort">Session</th>
+<th class="table-sort">Professor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>People and Power in Organizations</td>
+<td>LHA0340H</td>
+<td>Winter 2020</td>
+<td>Andrea</td>
+</tr>
+<tr>
+<td>Doctoral Seminar on Policy Issues in Education</td>
+<td>LHA0341H</td>
+<td>Winter 2020</td>
+<td>Andrea</td>
+</tr>
+<tr>
+<td>Literature Review Course</td>
+<td>LHA0342H</td>
+<td>Winter 2020</td>
+<td>Lonny</td>
+</tr>
+<tr>
+<td>Engineering Education</td>
+<td>LHA0343H</td>
+<td>Summer 2020</td>
+<td>Adrian</td>
+</tr>
+<tr>
+<td>Drupal Architecture</td>
+<td>LHA0344H</td>
+<td>Winter 2020</td>
+<td>Laura</td>
+</tr>
+</tbody>
+</table>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script> 
+<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script> 
+<script type="text/javascript" src="tablesort.js"></script> 
+<script type="text/javascript">
+            // For Demo Purposes
+            $(function () {
+                $('table.table-sort').tablesort();
+                hljs.initHighlightingOnLoad(); // Syntax Hilighting
+            });
+        </script>
+</body>
+</html>
